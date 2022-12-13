@@ -305,8 +305,7 @@ ul,ol,li{
 .our-trusted-clients-section {
   padding-bottom: 120px;
 }
-.container {
-}
+
 .our-trusted-clients-section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -322,9 +321,38 @@ ul,ol,li{
   justify-content: center;
   gap: 100px;
 }
-.our-trusted-clients-sectio-item {
-}
-.our-trusted-clients-sectio-item-img {
-}
+
 /* ****** OUR TRUSTED CLIENTS SECTION END **** */
+
+/* ***** WHAT WE DO SECTION START **** */
+.what-we-do-section {
+  padding-bottom: 133px;
+}
+
+.what-we-do-section-wrapper {
+  display: flex;
+}
+.what-we-do-section-start {
+}
+.what-we-do-section-start-title {
+}
+.what-we-do-section-start-subtitle {
+}
+.what-we-do-section-start-desc {
+}
+.what-we-do-section-start-btn {
+}
+.what-we-do-section-end {
+}
+.what-we-do-section-end-list {
+}
+.what-we-do-section-end-item {
+}
+.what-we-do-section-end-item-title {
+}
+.what-we-do-section-item-subtitle {
+}
+.what-we-do-section-item-btn {
+}
+/* ***** WHAT WE DO SECTION END **** */
 /* ***** SITE MAIN END **** */
