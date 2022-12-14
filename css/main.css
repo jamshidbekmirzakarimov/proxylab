@@ -121,6 +121,7 @@ ul,ol,li{
 .site-header {
   padding-top: 39px;
   padding-bottom: 39px;
+  background-color: #F9FAFD;
 }
 
 .site-header-wrapper {
@@ -166,6 +167,10 @@ ul,ol,li{
 
 /* ***** SITE MAIN START **** */
 /* ****** HERO SECTION START ***** */
+
+.site-main{
+  background-color: #F9FAFD;
+}
 .hero-section {
   position: relative;
   padding-top: 90px;
@@ -563,6 +568,64 @@ ul,ol,li{
 }
 /* ******* OUR-WORK-SECTION END ****** */
 /* ***** TESTIMONIAL SECTION START **** */
+.testimonial-section {
+  padding-bottom: 182px;
+}
 
+.testimonial-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial-section-start{
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-section-start-box{
+  background-color: var(--text-color);
+  border-radius: 29px;
+  padding: 33px 41px;
+}
+
+.testimonial-section-start-user {
+  display: flex;
+  align-items: center;
+}
+.testimonial-section-start-johne{
+  margin-right: 16px;
+}
+.testimonial-section-start-title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.testimonial-section-start-subtitle {
+  margin: 0;
+}
+.testimonial-section-start-desc {
+  width: 100%;
+  max-width: 434px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 155%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #757575;
+}
+
+.testimonial-section-start-arrow {
+  
+}
+.testimonial-section-start-arrow-box {
+}
+.testimonial-section-start-arrow-img {
+}
 /* ***** TESTIMONIAL SECTION END **** */
 /* ***** SITE MAIN END **** */
