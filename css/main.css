@@ -474,6 +474,95 @@ ul,ol,li{
 /* ***** WHAT WE DO SECTION END **** */
 
 /* ****** ABOUT US SECTION START ***** */
+.about-section{
+  padding-bottom: 134px;
+}
 
+.about-section-start-subtitle{
+  width: 100%;
+  max-width: 523px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  color: var(--main-text-color);
+  
+}
 /* ****** ABOUT US SECTION END ***** */
+
+/* ******* OUR-WORK-SECTION START ****** */
+.our-work-section {
+  padding-bottom: 143px;
+}
+
+.our-work-section-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: var(--hero-bg-color);
+}
+.our-work-section-subtitle {
+  margin-top: 0;
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  color: var(--main-text-color);
+}
+.our-work-section-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.our-work-section-list {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+}
+
+.our-work-section-item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #CCCCCC;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 13px;
+}
+
+.our-work-section-item-title:hover{
+  color: var(--hero-bg-color);
+  border-bottom: 3px solid var(--hero-bg-color);
+}
+.ur-work-section-top-explore {
+  display: flex;
+  align-items: center;
+}
+.ur-work-section-top-explore-title {
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: var(--main-text-color);
+}
+
+.our-work-section-img-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* ******* OUR-WORK-SECTION END ****** */
+/* ***** TESTIMONIAL SECTION START **** */
+
+/* ***** TESTIMONIAL SECTION END **** */
 /* ***** SITE MAIN END **** */
